@@ -2,7 +2,7 @@
   <nav class="nav">
     <ul>
       <li class="personIcon"><%= link_to(content_tag(:i, "", class: 'fas fa-2x fa-user'), user_path(current_user.id)) %></li>
-      <li class="appIcon"><%= link_to image_tag("techpit-march-icon.png"), users_path %></li>
+      <li class="appIcon"><%= link_to image_tag("engineer-march-icon.png"), users_path %></li>
       
       <li class="messageIcon"><%= link_to(content_tag(:i, "", class: 'fas fa-2x fa-comments'), matching_index_path) %></li>
   </nav>
@@ -17,7 +17,7 @@
         </li>
       <% end %>
     </ul>
-    <div class="noUser">近くにお相手がいません。</div>
+    <div class="noUser">近くにエンジニアがいません。</div>
   </div>
   <div class="actions" id="actionBtnArea">
       <a href="#" class="dislike"><i class="fas fa-times fa-2x"></i></a>
